@@ -1,0 +1,20 @@
+<p>
+  <strong>Hello, User Test</strong>
+  Ag: 9999, CO: 99999-9
+</p>
+
+<p>
+  Savings: R$ <span id="savings-value">{{ getSavings }}</span>
+  <input id="withdraw-input" type="text" #withdraw />
+  <button id="withdraw-btn" (click)="setWithdraw(withdraw.value)">
+    Withdraw
+  </button>
+</p>
+
+<p>
+  Wallet: R$ <span id="wallet-value">{{ getWallet }}</span>
+  <input id="deposit-input" type="text" #deposit />
+  <button id="deposit-btn" (click)="setDeposit(deposit.value)">Deposit</button>
+</p>
+
+<app-list></app-list>
