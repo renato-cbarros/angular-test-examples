@@ -4,6 +4,9 @@ In this project we have a simple abstraction of banking operations with savings,
 
 The focus is on unit tests, where we have (U) for testing component functionality and (I) for template. In particular we have an HTTP request test with mock substitution in services. The tests are located in the ‘.spec’ files. 
 
+### Unit testing coverage
+![Captura de tela 2021-11-18 232407](https://user-images.githubusercontent.com/42192877/142554288-39fef2cf-aa4e-4325-806f-6e96f49a0bba.png)
+
 Below are the instructions to run the tests and the project.
 
 ## Development server
